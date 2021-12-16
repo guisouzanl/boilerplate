@@ -4,6 +4,4 @@ const Main = () => (
   </main>
 )
 
-const test = 'tesdsad'
-
 export default Main
