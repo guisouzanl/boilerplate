@@ -11,10 +11,15 @@
     "test": "jest",
     "test:watch": "yarn test --watchAll"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
     "src/**/*": [
       "yarn lint --fix", 
-      "yarn test"
+      "yarn test --bail"
     ]
   },
   "dependencies": {
