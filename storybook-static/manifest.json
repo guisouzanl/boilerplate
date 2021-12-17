@@ -1,0 +1,21 @@
+{
+    "name": "Boilerplate",
+    "short_name": "Boiler",
+    "icons": [
+      {
+        "src": "/img/icon-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/icons/icon-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "background_color": "#06092B",
+    "description": "My boilerplate",
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#06092B"
+  }
