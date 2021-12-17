@@ -7,7 +7,7 @@ const Main = ({
   <S.Wrapper>
     <S.Logo
       src="/img/logo.svg"
-      alt="Imagem de um átomo e Boilerplate escrito ao lado."
+      alt="Imagem de um átomo e boilerplate escrito ao lado direito."
     />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
